@@ -1,5 +1,4 @@
 #!/bin/bash
-
 arch=$1
 new_dir="${arch}.unpacked"
 mkdir -p "$new_dir"
