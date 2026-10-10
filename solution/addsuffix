@@ -1,0 +1,5 @@
+#!/bin/bash
+sfx="$1"
+for file in "${@:2}"; do
+  mv "$file" "${file}${sfx}"
+done

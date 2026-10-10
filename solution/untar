@@ -1,0 +1,5 @@
+#!/bin/bash
+arch=$1
+new_dir="${arch}.unpacked"
+mkdir -p "$new_dir"
+tar -xf "$arch" -C "$new_dir"
