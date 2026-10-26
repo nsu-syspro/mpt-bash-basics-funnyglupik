@@ -1,4 +1,5 @@
 #!/bin/bash
+
 lines=()
 while read line; do
   lines+=("$line")
